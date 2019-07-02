@@ -10,8 +10,12 @@ The algorithm is to start two pointers, slow and fast from head of linked list. 
 <br>
 For example, we can see in below diagram, initial distance is 2. After one iteration, distance becomes 3, after 2 iterations, it becomes 4. After 3 iterations, it becomes 5 which is distance 0. And they meet.
 <br>
+
 ![Alt text](Floyd-Proof.jpg?raw=true "Floyd-Proof")
+
 <br>
+
+run:
 ```
 fn main() {
     let mut linked_list_with_loop = gen_linked_list_with_loop();
@@ -21,7 +25,6 @@ fn main() {
     let rl = linked_list_with_loop.find_loop();
     check_result(rl);
 }
-
 ```
 
 result:
