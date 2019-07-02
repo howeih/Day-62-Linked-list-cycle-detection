@@ -1,0 +1,11 @@
+[package]
+name = "linked_list_cycle_detection"
+version = "0.1.0"
+authors = ["Howard Huang <howeih@gmail.com>"]
+edition = "2018"
+
+[profile.dev]
+opt-level = 0  # Controls the --opt-level the compiler builds with
+debug = true   # Controls whether the compiler passes `-g`
+
+[dependencies]
